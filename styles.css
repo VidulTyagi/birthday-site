@@ -1,0 +1,87 @@
+body {
+    background: linear-gradient(#a2d2ff,#EFB0C9);
+    font-family: 'Happy Monkey', cursive;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#profile-pic {
+    border: 8px solid #EFB0C9;
+    border-radius: 250px;
+    width: 20%;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    text-shadow: 0 0 1px black;
+}
+
+#date {
+    margin: 0px;
+    background-color: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#age {
+    margin-bottom: 10px;
+    background-color: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.gift-cover {
+    margin: 0 auto;
+    background: url(images/gift-cover.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+#happy:hover{
+    background-image: url(images/celebration.webp);
+}
+#reaction:hover{
+    background-image: url(images/reaction.webp);
+}
+#wink:hover{
+    background-image: url(images/wink.webp);
+    background-position: center bottom;
+}
+#amazing:hover{
+    background-image: url(images/amazing.webp);
+    background-position: center bottom;
+}
+#cute:hover{
+    background-image: url(images/cutewebp.webp);
+}
+#dedicate{
+height: 200px;;
+}
+#dedicate:hover{
+    background-image: url(images/cheers.webp);
+}
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.title {
+    margin-bottom: 10px;
+}
+
+.hint {
+    margin-top: 0px;
+}
